@@ -146,7 +146,7 @@ function App() {
           Nie przepadam za grami survival, FPS, multiplayer, clickerów.
         "/>
         <Banner photos={["music1.png","music2.png","music3.png"]} header={"Muzyka"} desc="
-          Podoba mi się muzyka energincza i ciężka, jak i spokojną.<br>
+          Podoba mi się muzyka energincza i ciężka, jak i spokojna.<br>
           Raczej trudno aby jakaś piosenka naprawdę mi się nie podobała..<br>
           Nie przepadam raczej za rapem, disco polo i zbyt ciężką muzyką.
         "/>
