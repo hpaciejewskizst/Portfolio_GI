@@ -22,7 +22,7 @@ function tileRainProgress(){
 function tileRain(PDH:undefined|number=undefined){ //PDH, skrót - predefined height
     for(let i = 0; i < (100/tileWidth); i++){
         let tile = document.createElement("div");
-        tile.className = `tileRain tileOpacity${Math.floor(Math.random()*3+1)}`;
+        tile.className = `tileRain fixed bg-gray-700 z-1 tileOpacity${Math.floor(Math.random()*3+1)}`;
         tile.style.left = `${i*tileWidth}%`;
         if(PDH==undefined)
             tile.style.top = `-${tileHeight}%`;
@@ -36,6 +36,7 @@ function tileRain(PDH:undefined|number=undefined){ //PDH, skrót - predefined he
 document.addEventListener("DOMContentLoaded",function(){
     let tileRainContainer = document.createElement("div");
     tileRainContainer.id = "tileRainContainer";
+    tileRainContainer.className = "w-full h-full fixed top-0 left-0 z-[-1]";
     document.getElementsByTagName("body")[0].appendChild(tileRainContainer);
     for(let i = -1; i < (100/tileHeight); i++){
         tileRain(i*tileHeight);
