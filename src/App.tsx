@@ -155,6 +155,15 @@ function App() {
           Filmy eksplorujące ciekawe tematy lub interesujące koncepty.<br>
           Nie oglądam raczej horrorów (zależy), romansów, filmów dokumentalnych.
         "/>
+        <Banner photos={["projekt1.jpg","projekt2.jpg","projekt3.jpg"]} header={"Projekty"} desc="
+          W wolnym czasie lubię sobie stworzyć coś w co można później zagrać.<br>
+          Projektami wartymi uwagi są jak widać na górze:<br>
+          Blockblast - prosta rekreacja gry blockblast z (wydaje mi się) możliwą nieskończoną grą.<br>
+          Wordle - rekreacja gry wordle, gdzie lista słów jest brana z github.<br>
+          Postaw na Milion - rekreacja teleturnieju Postaw na Milion z możliwością modyfikacji zasad.<br>
+          Obecnie jeszcze pracuje nad grą Rummikub ale jest jeszcze mocno nie dokończona.<br>
+          Niestety te projekty nie są udostępnione, a Postaw na Milion posiada niczym nie blokowaną możliwość dodawania i usuwania pytań więc słabo by się sprawdziło na serwerze.
+        "/>
       </div>
     </div>
   )
