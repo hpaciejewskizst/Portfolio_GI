@@ -42,14 +42,6 @@ document.addEventListener("DOMContentLoaded",function(){
     }
     setInterval(tileRainProgress,rainInterval);
 });
-
-function NavBar(){
-  return (
-    <div className=''>
-
-    </div>
-  )
-}
 function Introduction() {
   return (
     <div>
@@ -119,7 +111,6 @@ function App() {
   return (
     <div className="h-auto min-h-screen flex items-center justify-center p-10">
       <div className="@container flex flex-col items-center gap-10 w-full h-auto">
-        <NavBar/>
         <h1 className="flex flex-col justify-center items-center text-5xl font-bold text-white bg-blue-950 p-5 rounded-full
         w-sm
         xl:w-5xl 
