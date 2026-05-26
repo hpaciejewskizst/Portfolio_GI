@@ -1,12 +1,5 @@
 body {
   background-color: var(--color-gray-900)
-}.tileRain {
-    z-index: 1;
-    width: 5%;
-    height: 15%;
-    position: fixed;
-    background-color: var(--color-gray-700);
-    transition: none;
 }
 .tileOpacity1 {
     opacity: 0.25;
@@ -16,13 +9,4 @@ body {
 }
 .tileOpacity3 {
     opacity: 0.1;
-}
-#tileRainContainer {
-    width: 100%;
-    height: 100vh;
-    position: fixed;
-    top: 0px;
-    left: 0px;
-    z-index: -1;
-    transition: none;
 }
